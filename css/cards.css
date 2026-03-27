@@ -1,0 +1,109 @@
+/* YEARNING MEN */
+
+* { margin: 0;
+    padding: 0; }
+
+body { background-color: #fff0de; }
+
+.titulo h1, .titulo h3 { text-align: center;
+                        width: 100%;
+                 color: #96c1c5;
+                 background-color: #694a47;
+                 padding: 5px; }
+
+.titulo h1 { padding-top: 10px; }
+
+.titulo h3 { padding-top: 5px;
+             padding-bottom: 15px; }
+
+.stars img { display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding: 25px; }
+
+.container { background-color: #96c1c5;
+             color: whitesmoke;
+             width: 80%;
+             min-height: 1px;
+             padding: 16px;
+             margin: auto;
+             display: flex;
+             border-radius: 5%; }
+
+div.explain h2 { padding-bottom: 15px;
+                 text-align: center; }
+
+div.explain  { width: 80%;
+               min-height: 100%;
+               text-align: justify;
+               padding: 15px; }
+
+.subb { text-align: center;
+        color: #96c1c5;
+        background-color: #694a47;
+        padding: 5px;
+        margin-top: 30px;
+        margin-bottom: 0px; }
+
+.perfiles { width: 100%;
+            min-height: 1px;
+            box-sizing: border-box;
+            margin: 80px 0px;
+            padding: 0px 16px; }
+
+.container2 { width: 100%;
+              min-height: 1px;
+              padding: 16px;
+              margin: 80px 0px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              box-sizing: border-box; }
+
+.yearner { width: 100%;
+           min-height: 1px;
+           padding-bottom: 30px;
+           box-sizing: border-box;
+           text-align: justify; 
+           color: whitesmoke;
+           background-color: #96c1c5;
+           border-radius: 5%; } 
+
+.yearner h3 { color: #696147;
+              padding-bottom: 5px;
+              text-align: center; }
+
+.yearner p { padding: 10px; }
+
+.yearner img { width: 100%;
+               height: auto;
+               border-radius: 30px;
+              padding: 16px;
+                box-sizing: border-box;} 
+
+
+/* BREAKPOINT 820PX */
+
+@media only screen and (min-width: 750px ) { 
+    h1 { font-size: 3em; }
+    .titulo h3 { font-size: 1.8em; }
+    .explain h2 { font-size: 2em; }
+    .explain p { font-size: 25px; }
+    h3 { font-size: 2em; }
+    .yearner p { font-size: 25px; }
+    .subb { font-size: 1.5em; }
+ }
+
+ /* BREAKPOINT 1280PX */
+
+ @media only screen and (min-width: 1000px ) { 
+    h1 { font-size: 4em; }
+    .titulo h3 { font-size: 2.3em; }
+    .container2 { width: 80%;
+    flex-direction: row;
+    justify-content: space-between; }
+    .yearner { width: 30%; }
+    h3 { font-size: 2.3em; }
+    .perfiles { width: 120%; }
+ }

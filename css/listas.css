@@ -1,0 +1,42 @@
+/* DOCUMENTO CSS */
+
+* { margin: 0%; }
+
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+h1 { text-align: center;
+    background-color: rgb(159, 218, 222);
+    padding: 16px 0px;
+    color: azure; }
+
+h2 { padding-bottom: 8px; }
+
+header.cabecera { background-color: rgb(99, 127, 193);
+                      padding: 16px 0px;
+                    margin-bottom: 24px; } 
+
+.temas { width: 70%;
+        border-bottom: 4px solid rgb(99, 127, 193);
+        margin: 0px auto 16px auto;
+        background-color: rgb(233, 122, 122); }
+
+section.temas { background-color: rgb(255, 255, 255); } 
+
+.temas ol, .temas ul, .temas dl { padding-bottom: 16px; } 
+
+#contenido { background-color: whitesmoke; }
+
+div.temas p, h3 { line-height: 170%;
+              padding: 16px;
+              font-size: 1.2em; }
+
+.pie { text-align: center;
+       background-color: rgb(159, 218, 222);
+       padding: 16px 0px;
+      font-weight: bold; }
+
+.Horario { padding-bottom: 16px;
+           width: 500px;
+        margin: auto; }
+
+        

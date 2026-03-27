@@ -1,0 +1,51 @@
+/*  Documento CSS  */
+
+*{margin: 0;} 
+
+body {background-color: rgb(140, 51, 51);
+                color: azure;}
+
+h1 {text-align: center; 
+    font-family: fantasy;
+    color: black;
+    background-color: aqua;
+    margin-bottom: 16px;
+    padding: 16px 0px; }
+
+h2 {color: aqua;}
+
+h3, h6 {color: rgb(194, 145, 240);}
+
+h4 {color: darksalmon;}
+
+h5 {color: greenyellow;}
+
+h2, h3, h4, h5, h6 {padding: 8px 16px; }
+                    
+
+div p {padding: 8px 16px; 
+        line-height: 140%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgba(255, 232, 232, 0.747); 
+        font-size: 1.4em;}
+
+div img { width: 450px;
+            margin: 8px auto; 
+            display: block;
+        }
+
+div blockquote {width: 500px;
+                margin: 32px auto; 
+                font-size: 3em ; 
+                border-left: 4px solid cyan; 
+                padding-left: 16px;
+            background-image: url(../img/phainon\ png.png);
+            background-size: 150px 150px;
+            background-repeat: no-repeat;
+            background-position: bottom right; }
+
+footer p {text-align: center;
+            background: aqua;
+            padding: 8px 0px;
+            color: mediumpurple;
+            font-size: 3ex; }

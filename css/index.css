@@ -1,0 +1,59 @@
+/* INDEX DECORACION */
+
+* { margin: 0;
+    padding: 0; }
+
+.everynyan { background-color: #b76e79;
+             color: #f4eceb;
+             padding: 5px;
+             text-align: center;
+             width: 100%; }
+
+.everynyan h2 { padding-bottom: 8px; }
+
+.song { color: #b76e79;
+        text-align: right;
+        padding: 10px; }
+
+.body { background-color: #b76e79; }
+
+.container { color: #f4eceb;
+         padding: 16px;
+         display: flex;
+         flex-direction: row;
+         box-sizing: border-box;
+         align-content: center;
+         text-align: center;
+         justify-content: space-around;
+         width: 80%;
+         min-height: 1px;
+         margin: auto; }
+
+.lista h2 { padding-bottom: 15px;
+                 text-align: center; }
+
+.lista li { width: 80%;
+         min-height: 100%;
+         margin: auto;
+         align-content: center;
+         padding: 3px;
+         box-sizing: border-box; }
+
+
+
+.lista li a { color: #ffd8de;
+              }
+
+.danheng img { width: 100%;
+               height: auto;
+               border-radius: 30px;
+              padding: 16px;
+                box-sizing: border-box; }
+
+.pie { text-align: center;
+       color: #b76e79;
+       padding-top: 10px; }
+
+.lista { display: block;
+         margin: auto;
+         font-size: 25px; }
